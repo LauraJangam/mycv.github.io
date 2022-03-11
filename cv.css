@@ -1,0 +1,66 @@
+body{
+    background-color:#bbf3f3;
+    font-family:Times;
+    color:hsl(120, 1%, 21%);
+}
+
+.container{
+    display: block;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 200px;
+    margin: 5em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.header{
+    text-align: center;
+    width: 100%;
+}
+
+.educationSection{
+    display: block;
+    text-align: left;
+    border: #2f3030 solid;
+    margin: 4%;  
+}
+
+.experienceSection{
+    display: block;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: left;
+}
+
+.skillsSection{
+    display: block;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #2f3030 solid;
+    width: 100%;
+    margin: 3px;
+}
+
+@media (max-width: 425px){
+    .educationSection{
+    width: auto;
+    float: none;
+    }
+}
+
+
